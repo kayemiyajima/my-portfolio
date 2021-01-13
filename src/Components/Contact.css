@@ -1,0 +1,117 @@
+.contact {
+    background-color: #404040;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* .contact__container {
+    width: 100%;
+    display: flex;
+} */
+
+.contact__title > h4 {
+    color: #8fc9d9;
+}
+
+.contact__title > hr {
+    background-color: black;
+    height: 4px;
+    width: 80%;
+    border: none;
+    text-align: left;
+    margin-left: 0;
+    margin-right: auto;
+    margin-top: -10px;
+}
+
+.contact__form {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 30px;
+
+}
+
+.contact__form__subtitle {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.contact__form__icon {
+    margin-right: 10px;
+    font-size: 45px;
+}
+
+.contact__form__item > input{
+    background: rgba(0, 0, 0, 0.4); 
+    border: none;
+    border-radius: 8px;
+    height: 40px;
+    width: 100%;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.contact__form__item > textarea {
+    background: rgba(0, 0, 0, 0.4); 
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.contact__scroll {
+    margin-top: 50px;
+}
+
+.contact__scroll__icon {
+    font-size: 45px;
+    color: rgba(255, 255, 255, .7);
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, .8));
+    margin: 12px;
+}
+
+.contact__scroll__icon:hover {
+    cursor: pointer;
+}
+
+.contact__scroll:hover .contact__scroll__icon {
+    color: #8fc9d9;
+}
+
+
+.contact__form__btn > button {
+    border: none;
+    font-size: 18px;
+    width: 200px;
+    height: 45px;
+    color: #000;
+    background-color: #fff;
+    font-weight: 700;
+    outline: none;
+    border-radius: 5px;
+} 
+
+.contact__form__btn > button:hover {
+	background: #cecece;
+    outline: none;
+    cursor: pointer;
+}
+
+.credit {
+    margin-top: 25px;
+}
+
+.credit > p {
+    font-size: 10px;
+    font-weight: 300;
+}

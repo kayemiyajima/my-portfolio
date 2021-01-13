@@ -1,0 +1,85 @@
+.home {
+    width: 100%;
+    background: url(../img/_DSC2457-1.jpg) no-repeat top center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    height: 700px;
+    min-height: 500px;
+    width: 100%;
+    position: relative;
+    opacity: 0.9;
+    text-align: center;
+    overflow: hidden;
+}
+
+.home__banner {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 50px auto 0 auto;
+    width: 85%;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.home__banner > h1 {
+    font-size: 4rem;
+    font-family: 'Palatino', 'URW Palladio L', serif;
+    letter-spacing: -1px;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+    color: #fff;
+} 
+
+.home__title__comment {
+    text-align: center;
+}
+
+.home__title__comment > p {
+    font-size: 26px;
+    font-weight: 900;
+    color: #fff;
+    font-family: 'Palatino', 'URW Palladio L', serif;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, .8);
+}
+
+.home__title__comment__span {
+    color: #ffdfb5;
+}
+
+.home__social {
+    display: flex;
+    /* margin: 0 auto; */
+    padding-top: 25px;
+    justify-content: center;
+}
+
+.home__social__icon {
+    font-size: 35px;
+    color: #fff;
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, .8));
+    margin: 12px;
+}
+
+.home__social__icon:hover {
+    cursor: pointer;
+}
+
+.home__scroll {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.home__scroll__icon {
+    font-size: 45px;
+    color: rgba(255, 255, 255, .7);
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, .8));
+    margin: 12px;
+}
+
+.home__scroll__icon:hover {
+    cursor: pointer;
+}
+
+.home__scroll:hover .home__scroll__icon {
+    color:  #8fc9d9;
+}
