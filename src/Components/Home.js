@@ -14,7 +14,7 @@ export default function Home() {
                 <h1>I'm KEI MIYAJIMA</h1>
                 <div className='home__title__comment'>
                     <p>
-                        I'm a Barcelona based <span className='home__title__comment__span'>Self-Tought ReactJS Developer</span>.
+                        I'm a Barcelona based <span className='home__title__comment__span'>Self-Taught ReactJS Developer</span>.
                         <br />
                         Trying to improve my skills day by day.
                     </p>
