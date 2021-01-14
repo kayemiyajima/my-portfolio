@@ -15,9 +15,9 @@ function Project() {
                         <div className='project__container__info'>
                             <h4>WhatsApp clone MERN</h4>
                             <p>MERN stack + pusher.<br />
-                            Tried to imitate a WhatsApp design for the frontend, with a chat function for the realtime database practice.<br />
-                            The frontend is created with <strong>React.js</strong>, the backend is buit with <strong>Node.js</strong>, <strong>MongoDB</strong>, <strong>Mongoose</strong>, <strong>Express.js</strong>, and <strong>pusher</strong> for the realtime database functionality.<br />
-                            Also the google authentication system is implemented to understand its function.<br />
+                            Tried to imitate a WhatsApp with a chat system for the realtime database practice.<br />
+                            The backend is buit with <strong>Node.js</strong>, <strong>MongoDB</strong>, <strong>Mongoose</strong>, <strong>Express.js</strong>, and <strong>pusher</strong> for the realtime database functionality.<br />
+                            Also the google authentication system is implemented to understand its usage.<br />
                             </p>
                         </div>
                     </Grid>
@@ -34,9 +34,9 @@ function Project() {
                         <div className='project__container__info' target='_blank' rel='noopener noreferrer'>
                             <h4>Youtube clone MERN</h4>
                             <p>MERN stack <br />
-                            It has register, login, logout and like video functios and also able to upload videos so far.<br />
+                            It has register, login, logout and like video functionalities and also able to upload videos so far.<br />
                             The frontend with <strong>React.js</strong> and Material-UI, the backend with <strong>Node.js</strong>, <strong>MongoDB</strong>, <strong>Mongoose</strong>, <strong>Express.js</strong>.<br />
-                            For the uploading video system, Multer and ffmpeg are used.<br />
+                            For the uploading video system, <strong>Multer</strong> and <strong>ffmpeg</strong> are used.<br />
                             </p>
                         </div>
                     </Grid>
@@ -53,8 +53,8 @@ function Project() {
                         <div className='project__container__info'>
                             <h4>Photo Upload App</h4>
                             <p>MERN stack <br />
-                            The first simple MERN stack project.
-                            It simply uploads photos, with like, deleat, and edit features.
+                            My first simple MERN stack project.
+                            It is a simple photo uploads app with like, delete, and edit features.
                             </p>
                         </div>
                     </Grid>
