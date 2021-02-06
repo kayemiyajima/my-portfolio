@@ -9,7 +9,7 @@ import Contact from './Components/Contact';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Navbar />
       <Home id='home'/>
       <About id='about'/>

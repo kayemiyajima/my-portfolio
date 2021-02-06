@@ -60,7 +60,7 @@ function Contact() {
                 <Grid container spacing={1} className='contact__container'>
                     <Grid item xs={12} sm={3}>
                         <div className='contact__title'>
-                            <h4>CONTACT</h4>
+                            <h3>CONTACT</h3>
                             <hr />
                         </div>
                     </Grid>

@@ -56,3 +56,9 @@
 span {
     color: #383838;
 }
+
+@media screen and (max-width: 425px){
+    .skill {
+        padding: 30px;
+    }
+}

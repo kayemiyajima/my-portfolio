@@ -42,12 +42,6 @@
     font-weight: 400;
 }
 
-/* .about__text__contact__info__container {
-    display: flex;
-    align-items: flex-end;
-    justify-content: start;
-} */
-
 .info {
     font-size: 14px;
     color: #f5f5f5;
@@ -100,7 +94,34 @@ hr {
 
 a {
     display: flex;
-    text-decoration: none;
+    text-decoration:none;
     color: #f5f5f5;
     align-items: center;
+}
+
+@media screen and (max-width: 425px){
+    .about {
+        padding: 30px;
+    }
+    .about__text__aboutMe > p {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .about__text__contact {
+        text-align: right;
+    }
+
+    .about__text__contact__info > p {
+        margin-bottom: 20px;
+    }
+
+    .about__text__contact__info__container {
+        margin-top: 10px;
+        text-align: right;
+    }
+
+    .info > p {
+        margin: 0;
+    }
 }

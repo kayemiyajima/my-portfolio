@@ -13,6 +13,23 @@ function Project() {
                 <Grid container spacing={2}>
                     <Grid item xs={12} sm={6}>
                         <div className='project__container__info'>
+                            <h4>Airbnb clone</h4>
+                            <p>React.js<br />
+                            The frontend RWD practice.
+                            </p>
+                        </div>
+                    </Grid>
+                    <Grid item xs={12} sm={6}>
+                        <div className='project__container__thumbnail'>
+                            <a href='https://airbnb-clone-project-d02c8.web.app/'>
+                                <img src={`${process.env.PUBLIC_URL}/images/airbnb.png`} alt='airbnb' />
+                            </a>
+                        </div>
+                    </Grid>
+                    <hr />
+                    
+                    <Grid item xs={12} sm={6}>
+                        <div className='project__container__info'>
                             <h4>WhatsApp clone MERN</h4>
                             <p>MERN stack + pusher.<br />
                             Tried to imitate a WhatsApp with a chat system for the realtime database practice.<br />

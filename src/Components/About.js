@@ -26,6 +26,7 @@ function About() {
                             <hr />
                             <p>I'm a Japanese Self-taught ReactJS Developer.<br />
                             Currently I'm focusing on learning MERN stack development and responsive design, seeking opportunities to work in the professional environment.<br />
+                            <br />
                             I may not have a professional experience in this field yet, but I am eager to take any challenging opportunities to gain experience.<br />
                             Please refer to some projects I've done below.<br />
                             Appreciate any advice and offer.

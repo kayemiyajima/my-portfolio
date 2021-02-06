@@ -83,3 +83,20 @@
 .home__scroll:hover .home__scroll__icon {
     color:  #8fc9d9;
 }
+
+@media screen and (max-width: 425px){
+    .home {
+        height: 80%;
+    }
+    .home__banner {
+        padding-top: 42px;
+    }
+
+    .home__banner > h1 {
+        font-size: 36px;
+    }
+
+    .home__title__comment > p {
+        font-size: 20px;
+    }
+}
