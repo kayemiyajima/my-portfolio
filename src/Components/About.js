@@ -53,15 +53,11 @@ function About() {
 
                                     <div className='download'>
                                         <a href={Pdf} target='_blank' rel='noreferrer'>
-                                            <span>
-                                                <FontAwesomeIcon icon={faFileDownload} className='download__icon'/>Download Resume
-                                            </span>
+                                            <FontAwesomeIcon icon={faFileDownload} className='download__icon'/>
+                                            <p>Download Resume</p>
                                         </a>
                                     </div>
                                 </div>
-                            </div>
-                            <div className='abou__text__contact__resume'>
-
                             </div>
                         </div>
                     </div>

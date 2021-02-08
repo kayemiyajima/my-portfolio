@@ -47,10 +47,10 @@
     border-radius: 4px;
 }
 
-.skill__react {height: 30px; width: 75%; background-color: #383838; border-radius: 4px;}
-.skill__css {height: 30px; width: 70%; background-color: #383838; border-radius: 4px;}
-.skill__javascript {height: 30px; width: 65%; background-color: #383838; border-radius: 4px;}
-.skill__html {height: 30px; width: 70%; background-color: #383838; border-radius: 4px;}
+.skill__react {height: 30px; width: 78%; background-color: #383838; border-radius: 4px;}
+.skill__css {height: 30px; width: 73%; background-color: #383838; border-radius: 4px;}
+.skill__javascript {height: 30px; width: 68%; background-color: #383838; border-radius: 4px;}
+.skill__html {height: 30px; width: 80%; background-color: #383838; border-radius: 4px;}
 .skill__mongodb {height: 30px; width: 40%; background-color: #383838; border-radius: 4px;}
 
 span {
@@ -60,5 +60,6 @@ span {
 @media screen and (max-width: 425px){
     .skill {
         padding: 30px;
+        margin-bottom: 20px;
     }
 }
